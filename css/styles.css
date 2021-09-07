@@ -74,11 +74,16 @@ nav ul li a{
 }
 
 .section-1-text h2 {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: 700;
 }
 
 .section-2 {
     margin-bottom: 20px;
+}
+
+.section-2-top {
+    padding: 14px 0;
 }
 
 .clearfix::after {
@@ -93,6 +98,7 @@ nav ul li a{
 
 .section-2-top h1 {
     font-size: 30px;
+    font-weight: 800;
 }
 
 .float-left {
@@ -129,16 +135,17 @@ section.float-left {
 }
 
 .img-height {
-    height: 400px;
+    height: 350px;
+    position: relative;
 }
 
 .img-overlay::before {
     content: "";
     display: block;
     position: absolute;
-    left: 0; right: 0; top: 0; bottom: 250px;
+    left: 0; right: 0; top: 0; bottom: 0px;
     background-color: rgba(0, 0, 0, .2);
-    overflow: hidden;
+    border-radius: 10px;
 }
 
 aside p {
