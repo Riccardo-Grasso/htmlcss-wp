@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 220px;
+    padding-right: 30px;
+    border-right: 1px solid grey;
+}
+
+.block-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-logo {
+    margin-bottom: 30px;
+}
+
+nav {
+    margin-left: -14px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px 14px;
+    margin-right: -4px;
+}
+
+.section-1 {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+.section-1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.section-1-text {
+    width: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: 135px;
+    color: white;
+}
+
+.font-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-grey {
+    color: grey;
+}
+
+.section-1-text h2 {
+    font-size: 50px;
+}
+
+.section-2 {
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-2-top {
+    margin-bottom: 30px;
+}
+
+.section-2-top h1 {
+    font-size: 30px;
+}
+
+.float-left {
+    float: left;
+    position: relative;
+}
+
+header.block-width {
+    margin: 10px auto 30px;
+}
+
+main.block-width {
+    margin: 0 auto;
+}
+
+aside.float-left{
+    width: 20%;
+}
+
+section.float-left {
+    width: calc((100% - 40%) - 60px);
+    margin: 0 30px 30px;
+}
+
+.lat-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container h4 {
+    padding: 14px 0;
+    font-size: 20px;
+}
+
+.img-height {
+    height: 400px;
+}
+
+.img-overlay::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0; right: 0; top: 0; bottom: 250px;
+    background-color: rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+
+aside p {
+    padding: 8px;
+}
+
+section p {
+    padding: 8px;
+}
+
+.site-footer h4 {
+    text-align: center;
+    padding: 8px;
+}
+
+.heart {
+    color: red;
+}
